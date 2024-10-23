@@ -10,5 +10,5 @@ def get_numbers_ticket(min:int, max:int, quantity:int) -> int:
             return random.sample(range(min, max), k=quantity)
         
 
-lottery_numbers = get_numbers_ticket(1, 1, 6)
+lottery_numbers = get_numbers_ticket(1, 49, 6)
 print(f"Ваші лотерейні числа: {lottery_numbers}")
